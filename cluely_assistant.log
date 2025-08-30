@@ -251,3 +251,83 @@
 2025-08-30 13:21:22,693 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 219 Detected 38 diacritics ObjectCache(00007ffd4ee46600)::~ObjectCache(): WARNING! LEAK! object 000002d4d06d2e20 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4ee46600)::~ObjectCache(): WARNING! LEAK! object 000002d4d06be5d0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4ee46600)::~ObjectCache(): WARNING! LEAK! object 000002d4d06be560 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
 2025-08-30 13:21:25,456 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 221 Detected 38 diacritics ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b7aff12e20 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b7afefe5d0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b7afefe560 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
 2025-08-30 13:21:40,922 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 221 Detected 35 diacritics ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b3b1be2e20 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b3b1bce5d0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b3b1bce560 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
+2025-08-30 13:25:04,859 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:25:04,872 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:25:05,658 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:25:05,658 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:25:06,488 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:25:06,490 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:25:06,490 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:25:06,490 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:25:06,523 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:25:10,456 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:25:10,457 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:25:10,471 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:25:10,672 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:25:10,672 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:25:10,673 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:25:10,704 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:25:10,705 - audio_capture - INFO - Started audio recording
+2025-08-30 13:25:10,706 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:25:11,106 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:25:11,106 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:25:11,106 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:25:16,543 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 220 ObjectCache(00007ffd4f556600)::~ObjectCache(): WARNING! LEAK! object 000001fbc87dbcf0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4f556600)::~ObjectCache(): WARNING! LEAK! object 000001fbc87ce490 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4f556600)::~ObjectCache(): WARNING! LEAK! object 000001fbc87ce420 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
+2025-08-30 13:25:54,920 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:25:54,934 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:25:55,683 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:25:55,683 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:25:56,458 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:25:56,460 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:25:56,460 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:25:56,460 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:25:56,485 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:25:59,465 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:25:59,465 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:25:59,480 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:25:59,673 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:25:59,673 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:25:59,673 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:25:59,725 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:25:59,727 - audio_capture - INFO - Started audio recording
+2025-08-30 13:25:59,727 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:26:00,052 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:26:00,053 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:26:00,053 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:36:23,075 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:36:23,088 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:36:23,897 - gemini_client - INFO - Gemini client initialized successfully with key index 0
+2025-08-30 13:36:23,898 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:36:24,716 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:36:24,718 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:36:24,719 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:36:24,719 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:36:24,744 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:36:27,621 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:36:27,621 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:36:27,634 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:36:27,797 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:36:27,797 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:36:27,797 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:36:27,825 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:36:27,826 - audio_capture - INFO - Started audio recording
+2025-08-30 13:36:27,826 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:36:28,140 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:36:28,140 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:36:28,140 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:36:30,192 - __main__ - INFO - Processing query: hi
+2025-08-30 13:36:30,193 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:36:30,988 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:36:30,990 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:36:44,812 - __main__ - INFO - Processing query: What am i looking at
+2025-08-30 13:36:46,748 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:36:48,141 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:36:48,144 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:36:53,857 - __main__ - INFO - Processing query: Which video is performing the best?
+2025-08-30 13:36:53,857 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:36:54,779 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:36:54,780 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:37:22,374 - __main__ - INFO - Processing query: See again
+2025-08-30 13:37:22,376 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:37:23,229 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:37:23,231 - google_genai.models - INFO - AFC remote call 1 is done.
