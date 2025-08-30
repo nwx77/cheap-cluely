@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout, 
     QTextEdit, QLineEdit, QPushButton, QLabel, QFrame
 )
-from PyQt5.QtCore import Qt, QTimer, pyqtSignal, QThread, pyqtSlot
+from PyQt5.QtCore import Qt, QTimer, pyqtSignal, QThread, pyqtSlot, QRectF
 from PyQt5.QtGui import QFont, QPalette, QColor, QPainter, QPainterPath
 from config import Config
 
@@ -260,7 +260,7 @@ class OverlayUI(QWidget):
         
         # Create rounded rectangle path
         path = QPainterPath()
-        path.addRoundedRect(self.rect(), Config.OVERLAY_CORNER_RADIUS, Config.OVERLAY_CORNER_RADIUS)
+        path.addRoundedRect(QRectF(self.rect()), Config.OVERLAY_CORNER_RADIUS, Config.OVERLAY_CORNER_RADIUS)
         
         # Fill with semi-transparent background
         painter.fillPath(path, QColor(30, 30, 30, int(255 * Config.OVERLAY_OPACITY)))

@@ -1,0 +1,225 @@
+2025-08-30 11:48:25,499 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 11:51:11,673 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 11:54:14,089 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 11:54:14,124 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 11:54:16,044 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 11:54:16,044 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 11:54:16,830 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 11:54:16,840 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 11:54:16,840 - __main__ - INFO - Initializing screen capture...
+2025-08-30 11:54:16,840 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 11:54:16,843 - screen_capture - ERROR - Tesseract not found: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-30 11:54:16,844 - __main__ - ERROR - Failed to initialize components: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-30 11:54:46,250 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 11:54:46,262 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 11:54:47,413 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 11:54:47,414 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 11:54:48,198 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 11:54:48,203 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 11:54:48,204 - __main__ - INFO - Initializing screen capture...
+2025-08-30 11:54:48,205 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 11:54:48,218 - screen_capture - ERROR - Tesseract not found: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-30 11:54:48,219 - __main__ - ERROR - Failed to initialize components: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-30 12:21:45,603 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:21:59,977 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:21:59,990 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 12:22:00,771 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 12:22:00,771 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 12:22:01,660 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 12:22:01,666 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 12:22:01,667 - __main__ - INFO - Initializing screen capture...
+2025-08-30 12:22:01,668 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 12:22:01,681 - screen_capture - ERROR - Tesseract not found: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-30 12:22:01,682 - __main__ - ERROR - Failed to initialize components: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-08-30 12:29:56,187 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:30:47,362 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:30:47,379 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 12:30:48,162 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 12:30:48,162 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 12:30:48,938 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 12:30:48,944 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 12:30:48,945 - __main__ - INFO - Initializing screen capture...
+2025-08-30 12:30:48,946 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 12:30:50,955 - __main__ - INFO - Initializing audio capture...
+2025-08-30 12:32:36,887 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 12:32:36,888 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 12:32:36,928 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 12:32:37,394 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 12:32:37,395 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 12:32:37,395 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 12:32:37,465 - screen_capture - INFO - Started background screen capture
+2025-08-30 12:32:37,468 - audio_capture - INFO - Started audio recording
+2025-08-30 12:32:37,468 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 12:32:37,978 - overlay_ui - INFO - Overlay shown
+2025-08-30 12:32:37,979 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 12:32:37,979 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 12:33:31,624 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:33:31,638 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 12:33:32,432 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 12:33:32,432 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 12:33:33,268 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 12:33:33,279 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 12:33:33,281 - __main__ - INFO - Initializing screen capture...
+2025-08-30 12:33:33,282 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 12:33:33,340 - __main__ - INFO - Initializing audio capture...
+2025-08-30 12:33:36,537 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 12:33:36,537 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 12:33:36,556 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 12:33:36,710 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 12:33:36,711 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 12:33:36,711 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 12:33:36,778 - screen_capture - INFO - Started background screen capture
+2025-08-30 12:33:36,787 - audio_capture - INFO - Started audio recording
+2025-08-30 12:33:36,787 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 12:33:37,352 - overlay_ui - INFO - Overlay shown
+2025-08-30 12:33:37,353 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 12:33:37,353 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 12:34:50,471 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:34:50,485 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 12:34:51,272 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 12:34:51,273 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 12:34:52,078 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 12:34:52,083 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 12:34:52,084 - __main__ - INFO - Initializing screen capture...
+2025-08-30 12:34:52,085 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 12:34:52,151 - __main__ - INFO - Initializing audio capture...
+2025-08-30 12:34:55,368 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 12:34:55,368 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 12:34:55,390 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 12:34:55,599 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 12:34:55,600 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 12:34:55,600 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 12:34:55,637 - screen_capture - INFO - Started background screen capture
+2025-08-30 12:34:55,638 - audio_capture - INFO - Started audio recording
+2025-08-30 12:34:55,639 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 12:34:56,232 - overlay_ui - INFO - Overlay shown
+2025-08-30 12:34:56,232 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 12:34:56,232 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 12:59:09,377 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 12:59:58,710 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:01:00,151 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:01:00,163 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:01:00,164 - gemini_client - ERROR - Failed to initialize Gemini client: Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.
+2025-08-30 13:01:00,164 - __main__ - ERROR - Failed to initialize components: Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.
+2025-08-30 13:01:16,905 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:01:16,918 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:01:17,652 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:01:17,652 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:01:18,522 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:01:18,527 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:01:18,527 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:01:18,527 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:01:18,567 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:01:21,681 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:01:21,681 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:01:21,697 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:01:21,856 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:01:21,856 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:01:21,856 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:01:21,925 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:01:21,927 - audio_capture - INFO - Started audio recording
+2025-08-30 13:01:21,927 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:01:22,264 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:01:22,264 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:01:22,264 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:01:41,888 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:01:41,900 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:01:42,639 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:01:42,639 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:01:43,480 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:01:43,485 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:01:43,486 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:01:43,486 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:01:43,523 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:01:46,485 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:01:46,485 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:01:46,500 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:01:46,660 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:01:46,660 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:01:46,660 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:01:46,705 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:01:46,706 - audio_capture - INFO - Started audio recording
+2025-08-30 13:01:46,706 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:01:47,023 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:01:47,023 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:01:47,023 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:02:15,464 - __main__ - INFO - Processing query: hi
+2025-08-30 13:02:15,466 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:02:16,567 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:02:16,570 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:02:57,731 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:02:57,743 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:02:58,489 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:02:58,489 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:02:59,238 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:02:59,243 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:02:59,244 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:02:59,244 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:02:59,292 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:03:02,187 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:03:02,187 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:03:02,201 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:03:02,358 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:03:02,359 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:03:02,359 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:03:02,402 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:03:02,403 - audio_capture - INFO - Started audio recording
+2025-08-30 13:03:02,403 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:03:02,796 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:03:02,797 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:03:02,797 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:04:59,171 - __main__ - INFO - Processing query: can you see my screen
+2025-08-30 13:04:59,173 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:05:00,354 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:05:00,357 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:05:09,980 - __main__ - INFO - Processing query: What am I looking at?
+2025-08-30 13:05:11,504 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:05:12,323 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:05:12,326 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:05:58,890 - overlay_ui - INFO - Overlay hidden
+2025-08-30 13:06:12,984 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:06:14,957 - overlay_ui - INFO - Overlay hidden
+2025-08-30 13:06:15,602 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:06:27,690 - overlay_ui - INFO - Overlay hidden
+2025-08-30 13:06:30,789 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:09:04,574 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:09:04,589 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:09:05,395 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:09:05,396 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:09:06,233 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:09:06,234 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:09:06,235 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:09:06,235 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:09:06,259 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:09:09,155 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:09:09,155 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:09:09,170 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:09:09,369 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:09:09,369 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:09:09,369 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:09:09,405 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:09:09,406 - audio_capture - INFO - Started audio recording
+2025-08-30 13:09:09,406 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:09:09,789 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:09:09,789 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:09:09,789 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:09:19,856 - __main__ - INFO - Processing query: Hi
+2025-08-30 13:09:19,857 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:09:20,783 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:09:20,785 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:09:28,676 - __main__ - INFO - Processing query: How many api left do i have
+2025-08-30 13:09:28,678 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:09:29,558 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:09:29,560 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:11:41,820 - __main__ - INFO - Processing query: Whats the answer
+2025-08-30 13:11:41,822 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:11:43,043 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:11:43,046 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:12:21,427 - __main__ - INFO - Processing query: Can you add details to this
+2025-08-30 13:12:21,428 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:12:22,512 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:12:22,514 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:12:28,442 - __main__ - INFO - Processing query: Why are there wars
+2025-08-30 13:12:29,725 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:12:30,814 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:12:30,816 - google_genai.models - INFO - AFC remote call 1 is done.

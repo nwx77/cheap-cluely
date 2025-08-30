@@ -17,7 +17,7 @@ class GeminiClient:
             if not Config.GEMINI_API_KEY:
                 raise ValueError("GEMINI_API_KEY not set in environment")
             
-            self.client = genai.Client()
+            self.client = genai.Client(api_key=Config.GEMINI_API_KEY)
             self.logger.info("Gemini client initialized successfully")
             
         except Exception as e:

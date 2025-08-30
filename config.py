@@ -5,7 +5,7 @@ class Config:
     """Configuration class for the Cluely-like AI assistant"""
     
     # Gemini API Configuration
-    GEMINI_API_KEY: Optional[str] = os.getenv('GEMINI_API_KEY')
+    GEMINI_API_KEY: Optional[str] = "AIzaSyBD2rqJJZugMHVC-TORgUDdCWb8hDOo3rI"
     GEMINI_MODEL: str = "gemini-2.0-flash"
     
     # Audio Configuration
@@ -36,7 +36,7 @@ class Config:
     def validate_config(cls) -> bool:
         """Validate that all required configuration is present"""
         if not cls.GEMINI_API_KEY:
-            print("❌ GEMINI_API_KEY environment variable not set!")
+            print("[ERROR] GEMINI_API_KEY environment variable not set!")
             print("Please set your Gemini API key:")
             print("Windows: set GEMINI_API_KEY=your_key_here")
             print("Linux/Mac: export GEMINI_API_KEY=your_key_here")
