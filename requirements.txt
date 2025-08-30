@@ -1,0 +1,10 @@
+google-genai>=0.3.0
+screen-ocr>=0.0.1
+openai-whisper>=20231117
+PyQt5>=5.15.0
+sounddevice>=0.4.6
+keyboard>=0.13.5
+Pillow>=10.0.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+pyaudio>=0.2.11
