@@ -223,3 +223,31 @@
 2025-08-30 13:12:29,725 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
 2025-08-30 13:12:30,814 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
 2025-08-30 13:12:30,816 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:20:40,828 - __main__ - INFO - Initializing Cluely AI Assistant...
+2025-08-30 13:20:40,841 - __main__ - INFO - Initializing Gemini client...
+2025-08-30 13:20:41,583 - gemini_client - INFO - Gemini client initialized successfully
+2025-08-30 13:20:41,584 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:20:42,507 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:20:42,509 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:20:42,509 - __main__ - INFO - Initializing screen capture...
+2025-08-30 13:20:42,510 - screen_capture - WARNING - screen-ocr not available, falling back to pytesseract: Reader.__init__() missing 1 required positional argument: 'backend'
+2025-08-30 13:20:42,538 - __main__ - INFO - Initializing audio capture...
+2025-08-30 13:20:45,524 - audio_capture - INFO - Whisper model loaded successfully
+2025-08-30 13:20:45,524 - __main__ - INFO - Initializing overlay UI...
+2025-08-30 13:20:45,541 - __main__ - INFO - Initializing hotkey manager...
+2025-08-30 13:20:45,712 - hotkey_manager - INFO - Registered hotkey: ctrl+alt+c - Toggle AI Assistant overlay
+2025-08-30 13:20:45,712 - __main__ - INFO - Cluely AI Assistant initialized successfully
+2025-08-30 13:20:45,712 - __main__ - INFO - Starting Cluely AI Assistant...
+2025-08-30 13:20:45,800 - screen_capture - INFO - Started background screen capture
+2025-08-30 13:20:45,801 - audio_capture - INFO - Started audio recording
+2025-08-30 13:20:45,802 - hotkey_manager - INFO - Hotkey manager started
+2025-08-30 13:20:46,133 - overlay_ui - INFO - Overlay shown
+2025-08-30 13:20:46,134 - __main__ - INFO - Cluely AI Assistant started successfully
+2025-08-30 13:20:46,134 - __main__ - INFO - Use ctrl+alt+c to toggle the overlay
+2025-08-30 13:21:10,210 - __main__ - INFO - Processing query: What am i looking at? explain to me
+2025-08-30 13:21:11,637 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-30 13:21:12,899 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-30 13:21:12,901 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-08-30 13:21:22,693 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 219 Detected 38 diacritics ObjectCache(00007ffd4ee46600)::~ObjectCache(): WARNING! LEAK! object 000002d4d06d2e20 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4ee46600)::~ObjectCache(): WARNING! LEAK! object 000002d4d06be5d0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4ee46600)::~ObjectCache(): WARNING! LEAK! object 000002d4d06be560 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
+2025-08-30 13:21:25,456 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 221 Detected 38 diacritics ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b7aff12e20 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b7afefe5d0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b7afefe560 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
+2025-08-30 13:21:40,922 - screen_capture - ERROR - Error capturing screen text: (3221225786, 'Estimating resolution as 221 Detected 35 diacritics ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b3b1be2e20 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-punc-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b3b1bce5d0 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-word-dawg) ObjectCache(00007ffd4f436600)::~ObjectCache(): WARNING! LEAK! object 000001b3b1bce560 still has count 1 (id C:\\Program Files\\Tesseract-OCR/tessdata/eng.traineddatalstm-number-dawg)')
