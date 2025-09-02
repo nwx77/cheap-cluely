@@ -1,6 +1,6 @@
-# Cluely-like AI Desktop Assistant, by Ethan W
+# cheap cluely that sorta sucks
 
-A local-first, undetectable AI desktop assistant that listens to meetings and on-screen content, then provides real-time answers using Google's Gemini API. Built with Python and designed to be invisible to others in video calls.
+a local-first, undetectable AI desktop assistant that listens to meetings and on-screen content, then provides real-time answers using Google's Gemini API. Built with Python and designed to be invisible to others in video calls.
 
 ## Features
 
