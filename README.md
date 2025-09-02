@@ -1,16 +1,16 @@
-# Cluely-like AI Desktop Assistant
+# Cluely-like AI Desktop Assistant, by Ethan W
 
 A local-first, undetectable AI desktop assistant that listens to meetings and on-screen content, then provides real-time answers using Google's Gemini API. Built with Python and designed to be invisible to others in video calls.
 
 ## Features
 
-- **🔍 Screen Context Capture**: OCR technology reads text from your screen (presentations, code, chat, etc.)
-- **🎤 Audio Transcription**: Real-time speech-to-text using Whisper for meeting audio
-- **🤖 AI-Powered Responses**: Google Gemini API provides context-aware answers
-- **🖥️ Translucent Overlay UI**: Always-on-top, draggable interface that never blocks your work
-- **⌨️ Global Hotkeys**: Quick access with customizable keyboard shortcuts
-- **🔒 Privacy-First**: All processing happens locally except AI API calls
-- **👻 Invisible to Others**: Never joins meetings or appears in screen shares
+- **Screen Context Capture**: OCR technology reads text from your screen (presentations, code, chat, etc.)
+- **Audio Transcription**: Real-time speech-to-text using Whisper for meeting audio
+- **AI-Powered Responses**: Google Gemini API provides context-aware answers
+- **Translucent Overlay UI**: Always-on-top, draggable interface that never blocks your work
+- **⌨Global Hotkeys**: Quick access with customizable keyboard shortcuts
+- **Privacy-First**: All processing happens locally except AI API calls
+- **Invisible to Others**: Never joins meetings or appears in screen shares
 
 ## Screenshots
 
